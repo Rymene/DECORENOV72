@@ -89,3 +89,7 @@ document.getElementById('myForm').addEventListener('submit', function() {
     window.open('', '_self', '');
     window.close();
 });
+
+document.getElementById('myForm').addEventListener('submit', function() {
+    alert('Le formulaire a été soumis avec succès.');
+    });
