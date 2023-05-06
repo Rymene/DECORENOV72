@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 20px;
+    overflow-x: hidden;
+    font-family: 'Heebo', sans-serif;
+    scroll-behavior: smooth;
+    background-image: url(img/fond.jpg);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+strong {
+    color: #980b24;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+textarea {
+    max-height: 200px;
+    resize: vertical;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #980b24;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    color: #980b24;
+    background-color: white;
+    border: 1px solid #980b24;
+    transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: white;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #980b24;
+}

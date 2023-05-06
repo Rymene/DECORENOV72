@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta tags -->
+    <meta name="description" content="Site de rénovation">
+    <meta name="keywords" content="rénovation, décoration, plomberie, électricité">
+    <title>Formulaire de contact</title>
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="CSS/devis.css">
+    <link rel="shortcut icon" href="img/DR_logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h2>Faites un devis <strong>GRATUIT</strong></h2>
+    <form action="https://formspree.io/f/moqzrraw" method="POST">
+        <label for="nom">Nom* :</label>
+        <input type="text" id="nom" name="nom" required>
+
+        <label for="telephone">Téléphone* :</label>
+        <input type="tel" id="telephone" name="telephone" required>
+
+        <label for="email">Email* :</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message* :</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Envoyer</button>
+    </form>
+</body>
+
+</html>
