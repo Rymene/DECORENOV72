@@ -84,3 +84,8 @@ setInterval(function () {
     enleverActiveImages();
     img__slider[etape].classList.add('active');
 }, 3000)
+
+document.getElementById('myForm').addEventListener('submit', function() {
+    window.open('', '_self', '');
+    window.close();
+});
